@@ -25,7 +25,7 @@ Web sitesi, çiçek satışı yapan bir platformun temel işleyişini simüle et
 - Bootstrap 5
 
 
-## ⚙️ 10 adet basit Javascript özelliği mevcuttur.
+## ⚙️ 10 adet basit JavaScript özelliği mevcuttur.
 - Sayfa yüklendiğinde basit bir hoşgeldin mesajı atar.
 - Bir ürünü sepete ekleyince bildirim gönderir.
 - Arama kutusu boş bırakılırsa uyarı bildirimi gönderir.
