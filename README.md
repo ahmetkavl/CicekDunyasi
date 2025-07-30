@@ -12,7 +12,7 @@ Web sitesi, çiçek satışı yapan bir platformun temel işleyişini simüle et
 ![Ana Sayfa](img/anasayfa.png)
 
 ### 💐 Ürünler
-![Ürünler](img/urunler.png)
+![Ürünler](img/ürünler.png)
 
 
 ## ⚙️ Kullanılan Teknolojiler
