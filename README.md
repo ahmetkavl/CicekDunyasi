@@ -14,6 +14,9 @@ Web sitesi, çiçek satışı yapan bir platformun temel işleyişini simüle et
 ### 💐 Ürünler
 ![Ürünler](img/ürünler.png)
 
+### 🚚 Gönderim Seçenekleri
+![Gönderim Seçenekleri](img/gonderimsecenekleri.png)
+
 
 ## ⚙️ Kullanılan Teknolojiler
 
