@@ -9,10 +9,10 @@ Web sitesi, çiçek satışı yapan bir platformun temel işleyişini simüle et
 ## 🖼️ Ekran Görüntüleri
 
 ### 🏠 Ana Sayfa
-![Ana Sayfa](<img width="1868" height="825" alt="anasayfa" src="https://github.com/user-attachments/assets/458d91a9-80e8-4df1-9f28-0ffbfd3ae721" />)
+![Ana Sayfa](img/anasayfa.png)
 
 ### 💐 Ürünler
-![Ürünler](<img width="1857" height="741" alt="ürünler" src="https://github.com/user-attachments/assets/78750495-333b-435c-8f43-eeb7f32caf4f" />)
+![Ürünler](img/urunler.png)
 
 
 ## ⚙️ Kullanılan Teknolojiler
@@ -26,4 +26,4 @@ Web sitesi, çiçek satışı yapan bir platformun temel işleyişini simüle et
 Projeyi kendi bilgisayarınızda çalıştırmak için:
 
 ```bash
-git clone https://github.com/ahmetkavl/CicekDunyasiProje.git]
+git clone https://github.com/ahmetkavl/CicekDunyasiProje.git
