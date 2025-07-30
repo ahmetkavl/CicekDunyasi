@@ -1,0 +1,14 @@
+10 adet javascript özelliği mevcuttur.
+
+1 - Sayfa yüklendiğinde basit bir hoşgeldin mesajı atar.
+2 - Bir ürünü sepete ekleyince bildirim gönderir.
+3 - Arama kutusu boş bırakılırsa uyarı bildirimi gönderir.
+4 - Footerin üstüne tıklayınca firmayla ilgili bir bildirim gönderir.
+5 - Çiçeklere gözat butonuna bastıktan sonra sayfayı aşağıya kaydırır.
+6 - Ürünün üzerine gelince cssteki hover gibi arkaplan rengi değişir.
+7 - Ürünün üzerine gelince ürünün kutusunu transform kullanarak büyütür.
+8 - Instagram sayfamız yazısı butonuna tıklayınca sizden onay almak için bir soru sorar.
+9 - Sağ üstteki gece modu yazısına tıkladığınızda gece moduna geçerek arkaplanı değiştirir.
+10 - Bir ürüne çift tıkladığınızda ürün favorilere eklendi diye bildirim gönderir.
+
+

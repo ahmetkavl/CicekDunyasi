@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çiçek Dünyası</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-md sticky-top border-bottom">
+          <div class="container">
+            <a class="navbar-brand d-md-none" href="#">
+              <svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg>
+              CicekDunyasi
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasLabel">CicekDunyasi</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav flex-grow-1 justify-content-between">
+                  <li class="nav-item"><a class="nav-link" href="index.html">Anasayfa</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Doğum Günü Çiçekleri</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Özel Gün Çiçekleri</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Evlilik Teklifi Çiçekleri</a></li>
+                  <li class="nav-item"><a class="nav-link" href="gonderimsecenekleri.html">Gönderim Seçenekleri</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">Bize Ulaşın</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">
+                    <svg class="bi" width="24" height="24"><use xlink:href="#cart"></use></svg>
+                  </a></li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Çiçek Çeşitlerini Arayın" aria-label="Search">
+                  <button class="btn" type="submit">Ara</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <button id="geceModuBtn" class="btn btn-outline-secondary">Gece Modu</button>
+        </nav>
+    </header>
+
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="img/logom.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class = "girisyazisi fw-bold lh-1 mb-3">Çiçekler, Kalbinizin Sesini Duyurur</h1>
+            <p class="lead">Hoş geldiniz! Çiçeklerin büyülü dünyasında, her anınıza anlam katacak taze ve zarif çiçeklerle sizleri karşılıyoruz. Sevginizi, mutluluğunuzu ve duygularınızı en güzel şekilde ifade edebilmeniz için buradayız. İster özel bir kutlama, ister küçük bir sürpriz için; her ihtimale özel çözümler sunuyor, alışverişinizi keyifli bir deneyime dönüştürüyoruz. Çiçeklerimizle hayatınıza renk katmak için sabırsızlanıyoruz!</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Çiçeklerimize Gözatın</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4"> <a class="nav-link" href="https://instagram.com/cicekdunyam/">Instagram Sayfamız</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <h1 class="urun-baslik">Çok Tercih Edilenler</h1>
+
+    <div class = "container">
+      <div class = "grid-kutu">
+        <div class = "cicekler">
+            <div class="card" style="width: 18rem;">
+                <img src="img/kokinabuketi.png" class="card-img-top" alt="Kokina Çiçeği">
+                <div class="card-body">
+                <h5 class="card-title">Kokina Buketi</h5>
+                <p class="card-text">Yeni yılın simgesi, sevgi ve mutluluğun taşıyıcısı kokina, sevdikleriniz için mükemmel bir hediye seçeneği.</p>
+                <div class = "fiyatlar">
+                  <strong>499,00 TL</strong>
+                </div>
+                <a href="#" class="btn btn-primary sepete-ekle">Sepete Ekle</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 19rem;">
+                <img src="img/beyazgulbuketi.png" class="card-img-top" alt="Beyaz Gül Buketi">
+                <div class="card-body">
+                <h5 class="card-title">Beyaz Gül Buketi</h5>
+                <p class="card-text">9 adet taze beyaz gülden oluşan bu buket, zarif ve şık tasarımıyla sevdiklerinizle özel anlarınızı taçlandırır.</p>
+                <div class = "fiyatlar">
+                  <strong>599,00 TL</strong>
+                </div>
+                <a href="#" class="btn btn-primary sepete-ekle">Sepete Ekle</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="img/beyazpapatya.png" class="card-img-top" alt="Beyaz Papatya Buketi">
+                <div class="card-body">
+                <h5 class="card-title">Beyaz Papatya Buketi</h5>
+                <p class="card-text">Saflığın ve zarafetin simgesi beyaz papatyalarla hazırlanan bu buket, sevdiklerinize mutluluk dolu bir hediye sunar.</p>
+                <div class = "fiyatlar">
+                    <strong>399,00 TL</strong>
+                </div>
+                <a href="#" class="btn btn-primary sepete-ekle">Sepete Ekle</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="urun-baslik baslik2">Yılbaşı Çiçekleri 🎄</h1>
+
+    <div class = "container">
+      <div class = "grid-kutu">
+        <div class = "cicekler">
+            <div class="card" style="width: 18rem;">
+                <img src="img/yilbasicicegi1.png" class="card-img-top" alt="Kokina Çiçeği">
+                <div class="card-body">
+                <h5 class="card-title">Yeni Yıl Ağacı</h5>
+                <p class="card-text">Yılbaşı ruhunu yansıtan bu zarif mini çam ağacı, sevdiklerinize mutluluk katacak harika bir hediye! 🎄✨</p>
+                <div class = "fiyatlar">
+                  <strong>599,00 TL</strong>
+                </div>
+                <a href="#" class="btn btn-primary sepete-ekle">Sepete Ekle</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 19rem;">
+                <img src="img/yilbasicicegi2.png" class="card-img-top" alt="Beyaz Gül Buketi">
+                <div class="card-body">
+                <h5 class="card-title">Romantik Gül ve Ayıcık</h5>
+                <p class="card-text">Kırmızı güllerin ve şirin ayıcığın mükemmel uyumu, sevdikleriniz için anlamlı ve sevgi dolu bir hediye. <br>🌹🐻</p>
+                <div class = "fiyatlar">
+                  <strong>499,00 TL</strong>
+                </div>
+                <a href="#" class="btn btn-primary sepete-ekle">Sepete Ekle</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="img/yilbasicicegi3.png" class="card-img-top" alt="Beyaz Papatya Buketi">
+                <div class="card-body">
+                <h5 class="card-title">Yılbaşı Tatlı Buketi</h5>
+                <p class="card-text">Yılbaşı ruhunu yansıtan, lezzetli keklerden oluşan bu çiçek buketi, sevdikleriniz için tatlı bir yeni yıl hediyesi! <br>🎂🎄</p>
+                <div class = "fiyatlar">
+                  <strong>699,00 TL</strong>
+                </div>
+                <a href="#" class="btn btn-primary sepete-ekle">Sepete Ekle</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>Telif Hakkı &copy; Çiçek Dünyası 2025</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

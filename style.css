@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: #495057;
+}
+
+.cicekler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.btn,
+.btn-primary{
+    background-color: #ff8787;
+    border-color: #ff8787;
+    color: #ffffff;
+}
+
+.btn:hover{
+    background-color: #ffa8a8;
+    border-color: #ff8787;
+}
+
+.urun-baslik {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ff8787;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    /* font-style: italic; */
+    font-weight: bold;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.baslik2{
+    margin-top: 30px;
+}
+
+.btn{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-title,
+.card-text{
+    color: #495057;
+    text-align: center;
+}
+
+.girisyazisi{
+    color: #ff8787;
+    font-size: 45px;
+}
+
+
+.grid-kutu{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #ff8787;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #495057;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    background-color: #ff8787;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+    left: 0;
+    right: 0;
+}
+
+.gece-modu {
+    background-color: #212529;
+    color: white;
+}
+
+.fiyatlar{
+    text-align: center;
+    margin-bottom: 15px;
+}
