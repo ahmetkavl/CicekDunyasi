@@ -4,7 +4,7 @@ Bu proje, üniversite dönem sonu final ödevi kapsamında geliştirilmiştir. T
 
 ## 🧾 Proje Hakkında
 
-Web sitesi, çiçek satışı yapan bir platformun temel işleyişini simüle etmektedir. Kullanıcı dostu arayüzü ve basit sipariş sistemi ile temel e-ticaret mantığı üzerine kuruludur.
+Web sitesi, çiçek satışı yapan bir platformun temel işleyişini simüle etmektedir. Kullanıcı dostu arayüzü mantığı üzerine kuruludur.
 
 ## 🖼️ Ekran Görüntüleri
 
